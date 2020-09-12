@@ -151,3 +151,66 @@ body {
         border: 1px solid transparent;
     }
 }
+
+footer {
+    color: #8e8e8e;
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+}
+
+.redes {
+    margin-left: 8%;
+    width: 100%;
+}
+
+a {
+    color:#00376b;
+    font: inherit;
+}
+
+.redes ul li {
+    display: inline;
+    font: inherit;
+    color:#00376b;
+}
+
+@media only screen and (min-width: 450px)
+and (max-width: 769px){
+   footer {
+       clear: both;
+       width: 100%;
+    }
+
+    .logotipo {
+        width: 50%;
+        text-align: center;
+    }
+
+    .redes {
+        width: 50%;
+        float: right;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+   footer {
+       width: 100%;
+       clear: both;
+    }
+
+   .logotipo {
+       font-size: 1em;
+       width: 35%;
+       float: right;
+       text-align: center;
+    }
+
+    .redes {
+        width: 45%;
+        float: left;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+}
