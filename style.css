@@ -159,7 +159,7 @@ footer {
     width: 100%;
 }
 
-.redes {
+.links {
     margin-left: 8%;
     width: 100%;
 }
@@ -169,7 +169,7 @@ a {
     font: inherit;
 }
 
-.redes ul li {
+.links ul li {
     display: inline;
     font: inherit;
     color:#00376b;
@@ -187,7 +187,7 @@ and (max-width: 769px){
         text-align: center;
     }
 
-    .redes {
+    .links {
         width: 50%;
         float: right;
         text-align: center;
@@ -207,7 +207,7 @@ and (max-width: 769px){
        text-align: center;
     }
 
-    .redes {
+    .links {
         width: 45%;
         float: left;
         text-align: center;
